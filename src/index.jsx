@@ -7,5 +7,6 @@ require("../styles/application.scss");
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.jsx';
+import Single from './Components/Single.jsx';
 
-ReactDOM.render(<App />, document.getElementById('react-root'));
+ReactDOM.render(<Single />, document.getElementById('react-root'));
